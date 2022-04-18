@@ -1,0 +1,339 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-image: url("../images/rr7.jpg");
+    background-position: center;
+    background-size: auto;
+  }
+  html,body{
+    overflow-x: hidden;
+    }
+  .mainHeader{
+    
+    background-size:auto;
+    height: auto;
+    background-color: rgba(128, 0, 128, 0.658);
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    text-align: center;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+    margin-bottom: 10px;
+  }
+
+  .header1 img {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-left: 70px;
+  }
+  .header1 h1 {
+    position: relative;
+    top: 50px;
+    right: 90px;
+  }
+  
+  .mainNav ul {
+    list-style-type:none;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(245, 225, 243, 0.904);
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+  }
+  
+  .mainNav li {
+    float:left;
+  }  
+  .mainNav li a {
+    display: block;
+    color: rgb(26, 25, 25);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainNav li a:hover:not(.active) {
+    background-color: rgba(221, 179, 231, 0.884);
+    transition: 0.7s;
+  }
+
+  .post-wrap {
+    min-width: 300px;
+    max-width: 380px;
+    height: 420px;
+    perspective: 1000px;
+    flex: 1;
+    margin: 0 15px 30px;
+}
+  .post {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.post-front, .post-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.post-back {
+    transform: rotateY(180deg);
+}
+.post-wrap:hover .post {
+    transform: rotateY(180deg);
+}
+.post-img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.post-info {
+    padding: 20px 30px 30px;
+}
+.post-info span {
+    font-size: 0.8rem;
+    color: #808080;
+}
+.post-info h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.post-back h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.post-back a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5678ba;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+  h2{
+      text-align: center;
+      color: crimson;
+  }
+  
+  #mainImg{
+    width: 100%;
+    height: 600px;
+    border-radius: 50px;
+  }
+
+  #img2{
+  width: 30%;
+  float: left;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.para1{
+    width: 65%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.section1{
+    height: 400px;
+    background-color: rgba(80, 97, 97, 0.253);
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 18px;
+    box-shadow: 0px 0px 18px  rgba(1, 12, 44, 0.76);
+}
+.section2{
+    height: 200px;
+    background-color: rgba(80, 97, 97, 0.253);
+    border-radius: 50px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 20px; 
+    padding-top: 20px;
+    font-size: 18px;
+    box-shadow: 0px 0px 18px  rgba(1, 12, 44, 0.76);
+}
+.section3{
+    height: 200px;
+    background-color: rgba(80, 97, 97, 0.253);
+    border-radius: 50px;
+    margin: 10px;
+    margin-bottom: 30px;
+    size: 18px;
+    padding: 20px; 
+    padding-top: 20px;
+    font-size: 18px;
+    box-shadow: 0px 0px 18px  rgba(1, 12, 44, 0.76);
+}
+
+  footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 0, 128, 0.658);
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    height: auto;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 2.5px;
+    color: #fff;
+  }
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(49, 3, 34);
+    text-shadow: 3px 5px 10px rgb(204, 5, 171);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: rgb(34, 0, 23);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p1 {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media (max-width: 768px){
+  .mainNav{
+    margin: 0px;
+    border-radius: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .para1{
+    width: auto;
+    margin-left: 30px;
+    
+  }
+  .section1{
+    height: 870px;
+  }
+  .section2{
+  height: 460px;
+  }
+  .section3{
+    height: 350px;
+    }
+  #img2{
+    width: 90%;
+    margin-left: 18px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+	.mainHeader
+	{
+		font-size:14px;
+	}
+  .header1 img {
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-left: 3px;
+  }
+	.header1
+	{
+		width:100%;
+		float:left;
+		text-align:center;
+    font-size:8px;
+	}
+	.mainNav
+	{
+		width:100%;
+		margin: 0 ;
+    
+	}
+	.mainNav ul
+	{
+		float:none;
+		margin-right:0px;
+    margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.mainHeader
+	{
+		font-size:12px;
+	}
+	.header1 h1
+	{
+		margin-bottom:1%;
+
+	}
+  .mainNav ul li
+	{
+		display:block;
+	}
+ }

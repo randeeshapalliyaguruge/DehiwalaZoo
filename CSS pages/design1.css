@@ -1,0 +1,344 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-image: url("../images/b1.jpg");
+    background-position: center;
+    background-size: auto;
+  }
+  html,body{
+    overflow-x: hidden;
+    }
+  .mainHeader{
+    
+    background-size:auto;
+    height: 247px;
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../images/bg911.jpg');
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .header1 img {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-left: 70px;
+   
+  }
+  
+  .header1 h1 {
+    position: relative;
+    top: 50px;
+    right: 90px;
+    color: rgb(255, 254, 254);
+    
+  }
+  
+  .mainNav ul {
+    list-style-type:none;
+    margin-top: 60px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(245, 225, 243, 0.904);
+    width: 100%;
+    box-shadow: 0 3px 20px 0 #0000003b;
+  }
+  
+  .mainNav li {
+    float:left;
+  }
+  
+  .mainNav li a {
+    display: block;
+    color: rgb(26, 25, 25);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .mainNav li a:hover:not(.active) {
+    background-color: rgba(221, 179, 231, 0.884);
+    transition: 0.7s;
+  }
+
+  #mainImg{
+    width: 100%;
+    height: 600px;
+    border-radius: 50px;
+    border: 10px solid red;
+  }
+  
+  .post-wrap {
+    min-width: 300px;
+    max-width: 380px;
+    height: 420px;
+    perspective: 1000px;
+    flex: 1;
+    margin: 0 15px 30px;
+}
+  .post {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.post-front, .post-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.post-back {
+    transform: rotateX(180deg);
+}
+.post-wrap:hover .post {
+    transform: rotateX(180deg);
+}
+.post-img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.post-info {
+    padding: 20px 30px 30px;
+}
+.post-info span {
+    font-size: 0.8rem;
+    color: #808080;
+}
+.post-info h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.post-back h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.post-back p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.post-back a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e60606;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+  h2{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+.section1{
+    position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.section1 .para1 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.603);
+    color: #f1f1f1;
+    width: 77.5%;
+    padding: 20px;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+  
+  #img2{
+      width: 80%;
+      margin-left: 150px;
+      margin-top: 15px;
+  }  
+  .para2, .para3{
+    color: #f1f1f1;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 50px;
+  }
+  .section2{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+  .section3{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+
+  footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../images/bg9112.jpg');
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 2.5px;
+    color: #fff;}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: red;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p1 {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media (max-width: 768px){
+  #img2{
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 500px;
+  }
+  #img2{
+    width: 100%;
+    height: 900px;
+  }
+  .section1 .para1{
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 590px) {
+	.mainHeader
+	{
+		font-size:14px;
+	}
+  .header1 img {
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-left: 3px;
+  }
+	.header1
+	{
+		width:100%;
+		float:left;
+		text-align:center;
+    font-size:8px;
+	}
+	.mainNav
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	.mainNav ul
+	{
+		float:none;
+		margin-right:0px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.mainHeader
+	{
+		font-size:12px;
+	}
+	.header1 h1
+	{
+		margin-bottom:1%;
+
+	}
+  .mainNav ul li
+	{
+		display:block;
+	}
+ }

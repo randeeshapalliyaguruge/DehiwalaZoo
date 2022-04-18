@@ -1,0 +1,242 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  background-image: url("../images/rr7.jpg");
+  background-position: center;
+  background-size: auto;
+}
+html,body{
+  overflow-x: hidden;
+  }
+.mainHeader{
+  
+    
+  background-size:auto;
+  height: 247px;
+  background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../images/bg911.jpg');
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+
+.header1 img {
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin-left: 70px;
+ 
+}
+
+.header1 h1 {
+  position: relative;
+  top: 50px;
+  right: 90px;
+  
+}
+
+.mainNav ul {
+  list-style-type:none;
+  margin-top: 60px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(245, 225, 243, 0.904);
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.mainNav li {
+  float:left;
+}
+
+.mainNav li a {
+  display: block;
+  color: rgb(26, 25, 25);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mainNav li a:hover:not(.active) {
+  background-color: rgba(221, 179, 231, 0.884);
+  transition: 0.7s;
+}
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(204, 204, 204, 0.384);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.637);
+  }
+  
+  input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0d46e0;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    margin: 40px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    border-radius: 50px;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    color: rgb(116, 101, 101);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 14px;
+  }
+  .column .box{
+    width: fit-content;
+    height: fit-content;
+    border: 3px rgb(228, 236, 240);
+    border-style: dashed;
+    padding: 30px;
+    margin: auto;
+    background-color:rgba(129, 90, 54, 0.479);
+    color: rgb(253, 246, 246);
+    box-shadow: 5px 10px 18px  rgba(1, 12, 44, 0.76);
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../images/bg9112.jpg');
+    height: auto;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 2.5px;
+    color: #fff;}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(49, 3, 34);
+    text-shadow: 3px 5px 10px rgb(204, 5, 171);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: rgb(34, 0, 23);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p1 {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.txtcol{
+  color: rgba(248, 54, 54, 0.664);
+  text-shadow: 2px 5px 10px #685000;
+  font-size: 24px; 
+  font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+@media only screen and (max-width: 590px) {
+	.mainHeader
+	{
+		font-size:14px;
+	}
+  .header1 img {
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-left: 3px;
+  }
+	.header1
+	{
+		width:100%;
+		float:left;
+		text-align:center;
+    font-size:8px;
+	}
+	.mainNav
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	.mainNav ul
+	{
+		float:none;
+		margin-right:0px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.mainHeader
+	{
+		font-size:12px;
+	}
+	.header1 h1
+	{
+		margin-bottom:1%;
+
+	}
+  .mainNav ul li
+	{
+		display:block;
+	}
+ }
